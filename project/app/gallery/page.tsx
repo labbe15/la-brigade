@@ -1,6 +1,6 @@
-import GalleryGrid from '@/components/GalleryGrid';
+import GalleryGrid, { type GalleryItem } from '@/components/GalleryGrid';
 
-const galleryItems = [
+const galleryItems: GalleryItem[] = [
   {
     id: 1,
     type: 'image',

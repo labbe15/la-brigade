@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { X, Calendar, ZoomIn } from 'lucide-react';
 
-interface GalleryItem {
+export interface GalleryItem {
   id: number;
   type: 'image' | 'video';
   src: string;
